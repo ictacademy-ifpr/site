@@ -1,10 +1,10 @@
 {
-  "homepage": "https://ictacademy-ifpr.github.io/site/",
+  "homepage": "https://www.ictacademyifpr.com.br/",
   "name": "huawei-ifpr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d .next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
