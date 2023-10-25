@@ -4,8 +4,8 @@
   "/_document": "pages/_document.js",
   "/api/hello": "pages/api/hello.js",
   "/courses": "pages/courses.html",
+  "/": "pages/index.html",
   "/midia/[id]": "pages/midia/[id].html",
   "/midia": "pages/midia.html",
-  "/": "pages/index.html",
   "/404": "pages/404.html"
 }
