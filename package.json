@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.ictacademyifpr.com.br/",
+  "homepage": "https://ictacademy-ifpr.github.io/site/",
   "name": "huawei-ifpr",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out -t true"
+    "deploy": "npm run build && gh-pages -d docs -t true"
   },
   "dependencies": {
     "framer-motion": "^7.6.2",
