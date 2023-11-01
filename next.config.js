@@ -8,7 +8,7 @@ const nextConfig = {
 
   output:'export',
   // Define o diretório de saída
-  distDir: '.next'
+  distDir: 'out'
 }
 
 module.exports = nextConfig
