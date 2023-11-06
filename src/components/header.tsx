@@ -48,9 +48,9 @@ export default function Header(props:Props){
 
                 <div className='menu_links'>
                     
-                    <div className='links'> <Link href='/'><a>Home</a></Link></div>
-                    <div className='links'> <Link href='/courses'><a>Cursos</a></Link></div>
-                    <div className='links'> <Link href='/midia'><a>Publicações</a></Link></div>
+                    <div className='links'> <Link href='/'>Home</Link></div>
+                    <div className='links'> <Link href='/courses'>Cursos</Link></div>
+                    <div className='links'> <Link href='/midia'>Publicações</Link></div>
                 </div>
             
                 {/*<button className='btn_menu' onClick={() => setMenuOpen(!menuOpen)}>
