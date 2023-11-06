@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       
       <Header class='white'/>
       <Banner>
-        <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={3} spaceBetween={0} loop={true}>
+        <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={1} spaceBetween={0} loop={true}>
 
           {/* Alterando este primeiro SwiperSlide, altera o primeiro banner mostrado no site */}
           <SwiperSlide key={1} className="banner_event_3_responsivo">
