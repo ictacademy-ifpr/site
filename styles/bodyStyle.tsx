@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Banner = styled.section`
-    height: 1000px ;
+    height: 80% ;
     .swiper {
         width: 100%;
         height: 100%;
