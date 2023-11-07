@@ -31,24 +31,20 @@ const Home: NextPage = () => {
         <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={1} spaceBetween={0} loop={true}>
 
           {/* Alterando este primeiro SwiperSlide, altera o primeiro banner mostrado no site */}
+
           <SwiperSlide key={1} className="banner_event_3_responsivo">
-            <a href="https://www.huawei.com/br/news/br/2023/huawei-abre-inscricoes-para-seeds" target="_blank" rel="noreferrer">
-              <img src='seeds for the future.jpg' alt='Imagem Seeds for the future Evento'/>
-            </a>
-          </SwiperSlide>
-          <SwiperSlide key={2} className="banner_event_3_responsivo">
             <img src='IMG_5171.JPG' alt='Imagem ICT 1'/>
           </SwiperSlide>
-          <SwiperSlide key={3} className="banner_event_3_responsivo">
+          <SwiperSlide key={2} className="banner_event_3_responsivo">
             <img src='IMG_4828.JPG' alt='Imagem ICT 2'/>
           </SwiperSlide>
-          <SwiperSlide key={4} className="banner_event_3_responsivo">
+          <SwiperSlide key={3} className="banner_event_3_responsivo">
             <img src='IMG_4875.JPG' alt='Imagem ICT 3'/>
           </SwiperSlide>
-          <SwiperSlide key={5} className="banner_event_3_responsivo">
+          <SwiperSlide key={4} className="banner_event_3_responsivo">
             <img src='IMG_5656.JPG' alt='Imagem ICT 4'/>
           </SwiperSlide>
-          <SwiperSlide key={6} className="banner_event_3_responsivo">
+          <SwiperSlide key={5} className="banner_event_3_responsivo">
             <img src='IMG_5660.JPG' alt='Imagem ICT 5'/>
           </SwiperSlide>
 
