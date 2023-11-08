@@ -5,7 +5,7 @@ const HeaderStyle = styled.header`
         background-color: transparent;
     }
     #white{
-        background-color: red;
+        background-color: #fff;
     }
     .head{
         padding: 5px 10px;
@@ -16,17 +16,20 @@ const HeaderStyle = styled.header`
         cursor: pointer;
 
 
+
         .container{
             display: flex ;
             align-items: center;
             justify-content: left;
             margin-left: 10px;
-            
+            width: 80%;
+
             
             .imagesBox{
                 position: relative ;
                 display: flex;
                 align-items: center;
+                width: 80%;
                 // &:after{
                 //     content: "";
                 //     position: absolute;
@@ -64,8 +67,8 @@ const HeaderStyle = styled.header`
         .menu_links{
             position: absolute;
             display: flex;
-            right: -90px;
-            top: 37px;
+            right: -60px;
+            top: 30px;
             align-items: left;         
             justify-content: left;
             flex-direction: row;

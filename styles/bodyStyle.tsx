@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Banner = styled.section`
     height: 80% ;
     .swiper {
@@ -153,7 +154,8 @@ export const SectionAboutIct= styled.section`
         
 
         #about_ict_left{
-            max-width: 455px;            
+            max-width: 455px;       
+                 
             p{
                 font-size: 20px;
                 line-height: 35px;
