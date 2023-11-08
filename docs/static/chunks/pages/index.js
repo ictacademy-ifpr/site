@@ -5288,4 +5288,4 @@ module.exports = JSON.parse('[{"title":"Cloud Service","bg":"url(\'tech4.png\')"
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
-]);                                                                                    
+]);
