@@ -10,11 +10,14 @@ html {
   -ms-text-size-adjust: 100%; 
   -ms-overflow-style: scrollbar; 
   -webkit-tap-highlight-color: transparent; 
+  display:flex;
+  width: 100%;
+
 }
 
 p, h1, a, h2, h3{
   font-family: 'Montserrat', sans-serif;
-}
+} 
 
 h1{
   background:  #024CAD;
@@ -24,6 +27,7 @@ h1{
   font-size: 40px;
   margin-bottom: 35px;
   margin-top: 0;
+  
 }
 
 @media(max-width:500px){
@@ -42,10 +46,12 @@ h1{
   max-width: 1040px;
   width: 100%;
   margin: 0 auto;
+  
 }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section{
   display: block;
+  
 }
 
 body {
@@ -56,8 +62,14 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left; 
-  background-color: #fff; 
-  position: fixed;
+  background-color: #ffffff; 
+  width: 100%;
+
+}
+
+.BodyContent{
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   
 }

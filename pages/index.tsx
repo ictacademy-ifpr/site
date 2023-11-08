@@ -28,111 +28,114 @@ const Home: NextPage = () => {
       
       <Header class='white'/>
       
-      <Banner>
-        <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={1} spaceBetween={0} loop={true}>
+      <div className='BodyContent'>
+        <Banner>
+          <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={1} spaceBetween={0} loop={true}>
 
-          {/* Alterando este primeiro SwiperSlide, altera o primeiro banner mostrado no site */}
+            {/* Alterando este primeiro SwiperSlide, altera o primeiro banner mostrado no site */}
 
-          <SwiperSlide key={1} className="banner_event_3_responsivo">
-            <img src='IMG_5171.JPG' alt='Imagem ICT 1'/>
-          </SwiperSlide>
-          <SwiperSlide key={2} className="banner_event_3_responsivo">
-            <img src='IMG_4828.JPG' alt='Imagem ICT 2'/>
-          </SwiperSlide>
-          <SwiperSlide key={3} className="banner_event_3_responsivo">
-            <img src='IMG_4875.JPG' alt='Imagem ICT 3'/>
-          </SwiperSlide>
-          <SwiperSlide key={4} className="banner_event_3_responsivo">
-            <img src='IMG_5656.JPG' alt='Imagem ICT 4'/>
-          </SwiperSlide>
-          <SwiperSlide key={5} className="banner_event_3_responsivo">
-            <img src='IMG_5660.JPG' alt='Imagem ICT 5'/>
-          </SwiperSlide>
+            <SwiperSlide key={1} className="banner_event_3_responsivo">
+              <img src='IMG_5171.JPG' alt='Imagem ICT 1'/>
+            </SwiperSlide>
+            <SwiperSlide key={2} className="banner_event_3_responsivo">
+              <img src='IMG_4828.JPG' alt='Imagem ICT 2'/>
+            </SwiperSlide>
+            <SwiperSlide key={3} className="banner_event_3_responsivo">
+              <img src='IMG_4875.JPG' alt='Imagem ICT 3'/>
+            </SwiperSlide>
+            <SwiperSlide key={4} className="banner_event_3_responsivo">
+              <img src='IMG_5656.JPG' alt='Imagem ICT 4'/>
+            </SwiperSlide>
+            <SwiperSlide key={5} className="banner_event_3_responsivo">
+              <img src='IMG_5660.JPG' alt='Imagem ICT 5'/>
+            </SwiperSlide>
 
-        </Swiper>
-      </Banner>
-      
+          </Swiper>
+        </Banner>
+        
 
-      <SectionCourses>
-        <div className="container">
-          <motion.h1
-            initial={{ transform: 'translateY(100px)', opacity: 0}}
-            whileInView={{ transform: 'translateY(0px)', opacity: 1}}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}>
-            Cursos
-          </motion.h1>
-          <motion.div
-            initial={{ transform: 'translateY(200px)', opacity: 0}}
-            whileInView={{ transform: 'translateY(0px)', opacity: 2}}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}>
-              <div className="grid">
-                {
-                  courses.slice(0, 3).map(({url, warning, img, title, bg}, index)=>
-                    <Card key={index} url={url} warning={warning} img={img} title={title} bg={bg}/>
-                  )
-                }
-              </div>
-              <div className="btn">
-                <Link  href="/courses">
-                   Ver mais
-                </Link>
-              </div>
-          </motion.div>
-        </div>
-      </SectionCourses>
-
-      <SectionTeam>
-        <div className="container">
-          <motion.h1
-            initial={{ transform: 'translateY(100px)', opacity: 0}}
-            whileInView={{ transform: 'translateY(0px)', opacity: 1}}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}>
-            Gestores
-          </motion.h1>
-          <motion.div
-            initial={{ transform: 'translateY(200px)', opacity: 0}}
-            whileInView={{ transform: 'translateY(0px)', opacity: 2}}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}>
-              <div className="grid">
-                {
-                  collabs.map((item, index)=>
-                    <Collabs key={index} photo={item.photo} name={item.name} description={item.description} link={item.link}/>
-                  )
-                }
-              </div>
-          </motion.div>
-        </div>
-      </SectionTeam>
-
-      <SectionAboutIct>
-        <div className="container">
-          <motion.div
-            initial={{ transform: 'translate(-300px)', opacity: 0}}
-            whileInView={{ transform: 'translate(0px)', opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 2 }}
-            id='about_ict_left'>
-            <h1>ICT Academy</h1>
-            <p>
-              A Huawei ICT Academy é uma parceria entre a Huawei e instituições do mundo todo. Através dessa parceria, instituições parceiras disponibilizam treinamentos de tecnologia Huawei ICT, 
-              encoraja estudantes a conseguirem o certificado da Huawei e a desenvolverem talentos com habilidades práticas para a indústria ICT e a comunidade.
-            </p>
-          </motion.div>
-          <motion.div
-            initial={{ transform: 'translate(300px)', opacity: 0}}
-            whileInView={{ transform: 'translate(0px)', opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 2 }}>
-              <img src='ICTLogo.png' alt='ICT Academy logo' id='logo_ict'/>
+        <SectionCourses>
+          <div className="container">
+            <motion.h1
+              initial={{ transform: 'translateY(100px)', opacity: 0}}
+              whileInView={{ transform: 'translateY(0px)', opacity: 1}}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}>
+              Cursos
+            </motion.h1>
+            <motion.div
+              initial={{ transform: 'translateY(200px)', opacity: 0}}
+              whileInView={{ transform: 'translateY(0px)', opacity: 2}}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}>
+                <div className="grid">
+                  {
+                    courses.slice(0, 3).map(({url, warning, img, title, bg}, index)=>
+                      <Card key={index} url={url} warning={warning} img={img} title={title} bg={bg}/>
+                    )
+                  }
+                </div>
+                <div className="btn">
+                  <Link  href="/courses">
+                    Ver mais
+                  </Link>
+                </div>
             </motion.div>
-        </div>
-      </SectionAboutIct>
+          </div>
+        </SectionCourses>
+
+        <SectionTeam>
+          <div className="container">
+            <motion.h1
+              initial={{ transform: 'translateY(100px)', opacity: 0}}
+              whileInView={{ transform: 'translateY(0px)', opacity: 1}}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}>
+              Gestores
+            </motion.h1>
+            <motion.div
+              initial={{ transform: 'translateY(200px)', opacity: 0}}
+              whileInView={{ transform: 'translateY(0px)', opacity: 2}}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}>
+                <div className="grid">
+                  {
+                    collabs.map((item, index)=>
+                      <Collabs key={index} photo={item.photo} name={item.name} description={item.description} link={item.link}/>
+                    )
+                  }
+                </div>
+            </motion.div>
+          </div>
+        </SectionTeam>
+
+        <SectionAboutIct>
+          <div className="container">
+            <motion.div
+              initial={{ transform: 'translate(-300px)', opacity: 0}}
+              whileInView={{ transform: 'translate(0px)', opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              id='about_ict_left'>
+              <h1>ICT Academy</h1>
+              <p>
+                A Huawei ICT Academy é uma parceria entre a Huawei e instituições do mundo todo. Através dessa parceria, instituições parceiras disponibilizam treinamentos de tecnologia Huawei ICT, 
+                encoraja estudantes a conseguirem o certificado da Huawei e a desenvolverem talentos com habilidades práticas para a indústria ICT e a comunidade.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ transform: 'translate(300px)', opacity: 0}}
+              whileInView={{ transform: 'translate(0px)', opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}>
+                <img src='ICTLogo.png' alt='ICT Academy logo' id='logo_ict'/>
+              </motion.div>
+          </div>
+        </SectionAboutIct>
 
 
+        
+        </div>  
       <Footer/>
     </>
   )
