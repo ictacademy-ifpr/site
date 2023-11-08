@@ -115,7 +115,7 @@ export const Banner = styled.section`
             background: rgb(56,1,161);
             background: linear-gradient(0deg, rgba(56,1,161,1) 0%, rgba(159,2,125,1) 100%);
             img{
-                max-width: 274px;
+                max-width: 100%;
                 margin: 0 auto;
             }
         }
