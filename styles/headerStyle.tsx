@@ -5,7 +5,7 @@ const HeaderStyle = styled.header`
         background-color: transparent;
     }
     #white{
-        background-color: #fff;
+        background-color: red;
     }
     .head{
         padding: 5px 10px;
