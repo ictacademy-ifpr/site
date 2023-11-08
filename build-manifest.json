@@ -5,13 +5,13 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/tqh41bYc38VdEuJ8t0ybD/_buildManifest.js",
-    "static/tqh41bYc38VdEuJ8t0ybD/_ssgManifest.js"
+    "static/9Cjb7OR9_Fwp7R3j4hOYf/_buildManifest.js",
+    "static/9Cjb7OR9_Fwp7R3j4hOYf/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
       "static/chunks/290-5c670305f17f32d7.js",
@@ -20,34 +20,34 @@
       "static/chunks/pages/index-4be7caaf9010e433.js"
     ],
     "/_app": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
-      "static/css/c46ca643333bdb1a.css",
-      "static/chunks/pages/_app-d57865bbd575ac87.js"
+      "static/css/ae601d2a69029d95.css",
+      "static/chunks/pages/_app-71f36613aed8c672.js"
     ],
     "/_error": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
       "static/chunks/pages/_error-1ff7cf07d1d61939.js"
     ],
     "/courses": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
       "static/chunks/290-5c670305f17f32d7.js",
       "static/chunks/pages/courses-91f8a4fbeadc8a96.js"
     ],
     "/midia": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
       "static/chunks/290-5c670305f17f32d7.js",
       "static/chunks/pages/midia-925319e37fe1720d.js"
     ],
     "/midia/[id]": [
-      "static/chunks/webpack-d45b187b3a478644.js",
+      "static/chunks/webpack-0dfe7b5994993f91.js",
       "static/chunks/framework-bbecb7d54330d002.js",
       "static/chunks/main-f99ea918951675e9.js",
       "static/chunks/290-5c670305f17f32d7.js",
