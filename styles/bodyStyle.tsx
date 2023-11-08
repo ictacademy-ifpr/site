@@ -93,6 +93,7 @@ export const Banner = styled.section`
                 object-position: center;
             }
         }
+
         .banner_event_4{
             display: none;
         }
