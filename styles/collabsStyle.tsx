@@ -54,11 +54,14 @@ const CollabsStyle = styled.div`
     }
     @media(max-width:400px){
         flex-direction: column;
+        width: 100%;
         .photo{
             margin: 0 ;
         }
         .description{
             text-align: center;
+            align-items: center;
+
             .description_text{
                 margin: 0 auto;
             }

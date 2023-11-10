@@ -34,6 +34,7 @@ export const Banner = styled.section`
         display: block;
         width: 100%;
         height: 100%;
+        
         object-fit: cover;
     }
     .banner_front{
@@ -44,6 +45,10 @@ export const Banner = styled.section`
     }
 
     .banner_event_0,  .banner_event_1, .banner_event_2, .banner_event_3,  .banner_event_3_responsivo, .banner_event_4, .banner_event_4_responsivo{
+        img{
+            max-width: 100%;
+
+        }
         a{
             width: 100%;
             height: 100%;
@@ -70,12 +75,6 @@ export const Banner = styled.section`
     .banner_event_3{
         background: rgb(74,0,151);
         background: linear-gradient(90deg, rgba(74,0,151,1) 0%, rgba(147,0,125,1) 100%);
-    }
-
-    //Tentando fazer com que o fundo do site adapte-se a cor das fotos
-    .banner_event_3_responsivo{
-        width: 100%;
-
     }
 
     .banner_event_4{
@@ -131,7 +130,7 @@ export const Banner = styled.section`
     @media(max-width:410px){
         .banner_event_4_responsivo,  .banner_event_3_responsivo{
             img{
-                max-width: 290px;
+                max-width: 100%;
             }
         }
     }
@@ -139,9 +138,10 @@ export const Banner = styled.section`
     @media(max-width:375px){
         .banner_event_4_responsivo,  .banner_event_3_responsivo{
             img{
-                max-width: 293px;
+                max-width: 100%;
             }
         }
+        
     }
 `
 

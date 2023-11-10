@@ -151,6 +151,7 @@ const HeaderStyle = styled.header`
         
     }
     @media (max-width:735px){
+        
         .head{
             .btn_menu{
                 right:10px;
@@ -195,20 +196,39 @@ const HeaderStyle = styled.header`
     @media (max-width:540px){
         .head{
             .container{
-                padding: 10px 0;
+                display: flex ;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                max-width: 400px;
+                width: 100%;
+
                 .imagesBox{
+                    position: relative ;
                     display: flex;
                     align-items: center;
-                    width: 70%;
-                    &:after{
-                        display: none;
-                    }
+                    justify-content: center;
+                    margin: 0 auto;
+                    width: 100%;
 
-                    .huawei, .ifpr{
-                        max-width: 160px;
-                    }
                 }
             }
+            .menu_links{
+                position: relative;
+                right: 0;
+                top: 0;
+                align-self: center;
+                
+                .links{
+                    position: relative;
+                    right: 0;
+                    top: 0;
+                    margin: 0 auto; 
+                    align-self: center;
+                }
+                
+            }
+        
 
             .menu{
                 top: 75px;
@@ -217,10 +237,12 @@ const HeaderStyle = styled.header`
     } 
 
     @media (max-width:490px){
+        
         .head{
             .menu{
                 top: 65px;
             }
+            
         } 
     } 
     @media (max-width:4350px){
