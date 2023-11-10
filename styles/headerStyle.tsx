@@ -155,7 +155,41 @@ const HeaderStyle = styled.header`
             .btn_menu{
                 right:10px;
             }
+            .container{
+                display: flex ;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                max-width: 400px;
+                width: 100%;
+
+                .imagesBox{
+                    position: relative ;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto;
+                    width: 100%;
+
+                }
+            }
+            .menu_links{
+                position: relative;
+                right: 0;
+                top: 0;
+                align-self: center;
+                
+                .links{
+                    position: relative;
+                    right: 0;
+                    top: 0;
+                    margin: 0 auto; 
+                    align-self: center;
+                }
+                
+            }
         }
+
     }
 
     @media (max-width:540px){
