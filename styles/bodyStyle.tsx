@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 
 export const Banner = styled.section`
-    height: 80% ;
-    
+    height: 100% ;
+
     .swiper {
         width: 100%;
         height: 100%;
+        
     }
 
     .swiper-slide {
@@ -86,7 +87,9 @@ export const Banner = styled.section`
     }
 
     @media(max-width:1440px){
-        height: 467px ;     
+        width: 100%;
+        height: 100%;
+        object-fit: cover;    
     }
 
     @media(max-width:500px){
@@ -117,7 +120,7 @@ export const Banner = styled.section`
         .banner_event_3_responsivo{
             display: flex;
             background: rgb(56,1,161);
-            background: linear-gradient(0deg, rgba(56,1,161,1) 0%, rgba(159,2,125,1) 100%);
+            background: white;
             img{
                 max-width: 100%;
                 margin: 0 auto;
