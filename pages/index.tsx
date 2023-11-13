@@ -26,9 +26,10 @@ const Home: NextPage = () => {
     <>
       {/* Cabeçalho com as logos e menus */}
       
-      <Header class='white'/>
       
       <div className='BodyContent'>
+        <Header class='white'/>
+
         <Banner>
           <Swiper autoplay={{ delay: 5000 }} pagination={true} modules={[Pagination]} className="mySwiper" slidesPerView={1} spaceBetween={0} loop={true}>
 
@@ -133,10 +134,10 @@ const Home: NextPage = () => {
           </div>
         </SectionAboutIct>
 
+        <Footer/>
 
         
-        </div>  
-      <Footer/>
+      </div>  
     </>
   )
 }

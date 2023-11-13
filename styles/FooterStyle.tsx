@@ -45,6 +45,14 @@ const FooterStyle = styled.footer`
         margin: 0 65px ;
     }
   }
+
+  @media(max-width:800px){
+    img{
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+  }
     
 `
 

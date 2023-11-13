@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const Banner = styled.section`
     height: 100% ;
+    overflow: hidden;
 
     .swiper {
         width: 100%;

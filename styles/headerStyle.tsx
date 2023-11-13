@@ -44,7 +44,7 @@ const HeaderStyle = styled.header`
 
                 .huawei{
                     padding: 5px;
-                    margin-right: 40px;
+                    margin-right: 0px;
                     max-width: 150px;
                     width: 100%;
                     img{
@@ -67,10 +67,10 @@ const HeaderStyle = styled.header`
         .menu_links{
             position: absolute;
             display: flex;
-            right: -60px;
+            right: 0px;
             top: 30px;
-            align-items: left;         
-            justify-content: left;
+            align-items: center;         
+            justify-content: center;
             flex-direction: row;
 
             border: none;
