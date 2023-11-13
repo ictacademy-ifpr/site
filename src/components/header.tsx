@@ -34,7 +34,7 @@ export default function Header(props:Props){
         <HeaderStyle>
             <div id={props.class} className='head'>
                 <div className="container">
-                    <Link href='/site'>
+                    <Link href='/'>
                         <div className='imagesBox'>
                             <div className='ifpr'>
                                 <img src="ifpr_degrade.png"  alt='logo do ifpr'/>
@@ -48,7 +48,7 @@ export default function Header(props:Props){
 
                 <div className='menu_links'>
                     
-                    <div className='links'> <Link href='/site'>Home</Link></div>
+                    <div className='links'> <Link href='/'>Home</Link></div>
                     <div className='links'> <Link href='/courses'>Cursos</Link></div>
                     <div className='links'> <Link href='/midia'>Publicações</Link></div>
                 </div>
