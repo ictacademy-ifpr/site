@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
 
   // Add basePath
-  basePath: '',
+  basePath: '/site',
 
   // output:'export',
   // Define o diretório de saída
