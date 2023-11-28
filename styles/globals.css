@@ -49,6 +49,12 @@ h1{
   
 }
 
+.headerBase{
+  max-width: 100%;
+  height: 76px;
+}
+
+
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section{
   display: block;
   
