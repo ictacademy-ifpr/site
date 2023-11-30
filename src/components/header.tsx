@@ -5,7 +5,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 
 interface Props{
-    class: string
+    class: string,
+    base?: string
+    
 }
 
 export default function Header(props:Props){
@@ -37,10 +39,10 @@ export default function Header(props:Props){
                     <Link href='/'>
                         <div className='imagesBox'>
                             <div className='ifpr'>
-                                <img src="ifpr_degrade.png"  alt='logo do ifpr'/>
+                                <img src={props.base?props.base+'ifpr_degrade.png':'ifpr_degrade.png'}  alt='logo do ifpr'/>
                             </div>
                             <div className='huawei'>
-                                <img src='huawei_degrade.png'  alt='logo Huawei'/>
+                                <img src= {props.base?props.base+'huawei_degrade.png':'huawei_degrade.png'}   alt='logo Huawei'/>
                             </div>
                         </div>
                     </Link>

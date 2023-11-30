@@ -13,7 +13,7 @@ export default function MidiaDetail(){
 
     return(
         <>
-            <Header class='white'/>
+            <Header class='white' base='../' />
             <MidiaStyle>
                 <div className="banner">
                     <div className="container">
