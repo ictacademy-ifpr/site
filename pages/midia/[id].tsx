@@ -1,4 +1,6 @@
 import Header from '../../src/components/header'
+import Footer from '../../src/components/footer'
+
 import FooterStyle from '../../styles/FooterStyle'
 import MidiaStyle from '../../styles/midia'
 import { useRouter } from 'next/router'
@@ -40,13 +42,7 @@ export default function MidiaDetail(){
                 </div>
             </MidiaStyle>
 
-            <FooterStyle>
-                <div className="container">
-                    <img src='../huawei-transp.png' alt='logo Huawei' className='logo_huawei'/>
-                    <span className='city'>Londrina - Paraná</span>
-                    <img src='../ifpr-logo-branca.png' alt='logo IFPR' className='logo_ifpr'/>
-                </div>
-            </FooterStyle>
+            <Footer/>
         </>
     )
 }
