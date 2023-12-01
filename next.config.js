@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
 
   // Add basePath
-  basePath: '',
+  // basePath: '/github-pages',
 
   // output:'export',
   // Define o diretório de saída
