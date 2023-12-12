@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/midia": "pages/midia.js",
-  "/midia/[id]": "pages/midia/[id].js"
-}
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/api/hello":"pages/api/hello.js","/courses":"pages/courses.html","/":"pages/index.html","/midia":"pages/midia.html","/midia/[id]":"pages/midia/[id].html","/_error":"pages/_error.js","/404":"pages/404.html"}
