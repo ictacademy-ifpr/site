@@ -1,6 +1,18 @@
 [
     {   
         "id": "0",   
+        "title": "Huawei ICT Roadshow visita Londrina",
+        "text": [
+            "Nos dias 04 e 05 de dezembro o campus Zona Norte do IFPR Londrina recebeu o Huawei ICT Roadshow, um projeto inovador fruto da parceria entre a Huawei,  renomada multinacional referência em TIC (Tecnologia da Informação e Comunicação), a Unversidade Estadual do Ceará e o Instituto Iracema."  ,
+            "Com o objetivo de apresentar novas tendências de soluções em TIC e seus benefícios, a Huawei equipou um caminhão como escola itinerante, com estações que explicam e ilustram algumas de suas tecnologias emergentes como a Internet das Coisas (IoT), Inteligência Artificial (IA), Cloud Computing, Cibersegurança, Serviços de Storage e Wi-Fi 6.",
+            "Além das soluções apresentadas, a carreta ainda ofereceu cursos de capacitação para os estudantes com os temas: Noções básicas de tecnologia de fibra óptica, Introdução à IoT, Inteligência artificial e visão inteligente, Comunicação de dados e redes sem fios, Introdução ao armazenamento de dados e Big Data.",
+            "O evento contou com a presença de mais de 200 convidados, entre estudantes, professores e membros da comunidade interna e externa do Instituto. Desde agosto o ICT Roadshow já visitou 20 cidades e treinou 1154 estudantes.",
+            "O professor e coordenador da Huawei ICT Academy IFPR, Augusto Luengo Pereira Nunes, destacou: “A presença do ICT Roadshow oferece uma oportunidade única de imersão no ecossistema Huawei para os estudantes, permitindo que observem de perto os efeitos das novas tecnologias na sociedade e na indústria, além de ser uma experiência enriquecedora para o desenvolvimento profissional do aluno, contribuindo para a evolução do cenário de TIC da cidade e região”."
+        ],
+        "img": "ICT Roadshow.JPG"
+    },
+    {   
+        "id": "1",   
         "title": "IFPR campus Londrina recebe Bruno Zitnick, diretor de Relações públicas da Huawei Brasil",
         "text": [
             "09/10/2023 - Os professores Rodolfo Barriviera, chefe do Núcleo de Inovação Tecnológica IFPR Londrina, e Augusto Luengo Pereira Nunes, coordenador da Huawei ICT Academy IFPR Londrina, responsáveis pela parceria com a multinacional  chinesa recebem no Laboratório Avançado de Tecnologia “André Luiz Camargo” do campus, o diretor de Relações Públicas da Huawei Brasil.", 
@@ -13,7 +25,7 @@
     },
 
     {   
-        "id": "1",   
+        "id": "2",   
         "title": "Instituto Federal do Paraná (IFPR) disponibiliza curso de 5G",
         "text": [
             "O Instituto Federal do Paraná (IFPR) está empenhado em oferecer aos seus alunos e à comunidade em geral oportunidades de capacitação nas mais avançadas tecnologias de informação e comunicação.", 
@@ -26,7 +38,7 @@
     },
 
     {
-        "id:": "2",
+        "id:": "3",
         "title": "Curso de Cloud gratuito oferecido pelo IFPR",
         "text": [
             "O Instituto Federal do Paraná (IFPR) está empenhado em oferecer aos seus alunos e à comunidade em geral oportunidades de capacitação nas mais avançadas tecnologias de informação e comunicação.", 
@@ -39,7 +51,7 @@
     },
     
     {
-        "id:": "3",
+        "id:": "4",
         "title": "Reabertas as inscrições do curso de 5G pelo IFPR",
         "text": [
             "O Instituto Federal do Paraná (IFPR), em parceria com a Softex, anuncia a reabertura das inscrições para o curso de 5G, em parceria com a Softex e com materiais da Huawei ICT Academy. O curso é totalmente gratuito e tem como objetivo capacitar profissionais em uma das mais avançadas tecnologias de comunicação móvel.", 
