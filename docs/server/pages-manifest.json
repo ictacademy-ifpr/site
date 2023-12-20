@@ -1,1 +1,1 @@
-{"/_app":"pages/_app.js","/_document":"pages/_document.js","/courses":"pages/courses.html","/midia/[id]":"pages/midia/[id].html","/api/hello":"pages/api/hello.js","/":"pages/index.html","/midia":"pages/midia.html","/_error":"pages/_error.js","/404":"pages/404.html"}
+{"/_app":"pages/_app.js","/api/hello":"pages/api/hello.js","/_document":"pages/_document.js","/courses":"pages/courses.html","/midia/[id]":"pages/midia/[id].html","/":"pages/index.html","/midia":"pages/midia.html","/_error":"pages/_error.js","/404":"pages/404.html"}
